@@ -13,8 +13,8 @@ public class HowMany {
         for( int i=0; i<str_len; i++) {
             chars[i] = user_string.charAt(i);
         }
-        for( int i=0; i<str_len; i++) {
-            if ( chars[i] == ' ' ) {
+        for( int i=0; i<str_len-1; i++) {
+            if (( chars[i] == ' ') ) {
                 k+=1;
             }
         }
