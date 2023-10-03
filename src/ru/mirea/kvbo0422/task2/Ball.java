@@ -21,7 +21,7 @@ public class Ball {
     @Override
     public String toString() {
         return "Ball{" +
-                ", x=" + x +
+                " x=" + x +
                 ", y=" + y + '\'' +
                 '}';
     }
