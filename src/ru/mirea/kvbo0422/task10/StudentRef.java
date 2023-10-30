@@ -1,9 +1,9 @@
 package ru.mirea.kvbo0422.task10;
 
-public class Student implements Comparable<Student>{
+public class StudentRef implements Comparable<StudentRef>{
     private String name;
     private Integer mark;
-    public Student(String name, Integer mark) {
+    public StudentRef(String name, Integer mark) {
         this.name = name;
         this.mark = mark;
     }
@@ -17,7 +17,7 @@ public class Student implements Comparable<Student>{
     }
 
     @Override
-    public int compareTo(Student student){
+    public int compareTo(StudentRef student){
         return this.mark.compareTo(student.mark);
     }
     @Override
