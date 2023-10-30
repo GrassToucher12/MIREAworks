@@ -59,6 +59,9 @@ public class Student implements Comparable<Student>{
                 ", name = " + name +",\n"+
                 ", birthDate = " + dt1.format(date) +",\n"+
                 ", mark = " + mark +",\n" +
+                " name = " + name +",\n"+
+                " birthDate = " + dt1.format(date) +",\n"+
+                " mark = " + mark +",\n" +
                 '}';
     }
 }
