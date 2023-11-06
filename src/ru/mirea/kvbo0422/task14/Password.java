@@ -7,7 +7,7 @@ import java.util.regex.Pattern;
 public class Password {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Введите свой апроль: ");
+        System.out.println("Введите свой пароль: ");
         String password = sc.nextLine();
         String regex = "[A-Z,a-z,\\d,_]{8,}";
         Pattern p1 = Pattern.compile(regex);
